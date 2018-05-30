@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 // Declarative //
 pipeline {
-  agent any
+  agent any //allocate executor and workspace for the pipeline
   stages {
     stage('Build') {
       steps {

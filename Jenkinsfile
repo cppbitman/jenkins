@@ -21,7 +21,7 @@ pipeline {
   }
   post {
     success {
-      mail to: 'daihongjun@kedacom.com', subject: 'The Declarative Pipeline succeeded :)'
+      mail to: 'daihongjun@kedacom.com', subject: 'The Declarative Pipeline succeeded :)', body: 'Mail Test'
     }
   }
 }

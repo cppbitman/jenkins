@@ -19,11 +19,11 @@ pipeline {
       }
     }
   }
-  post {
-    success {
-      mail to: 'daihongjun@kedacom.com', subject: 'The Declarative Pipeline succeeded :)', body: 'Mail Test'
-    }
-  }
+  //post {
+  //  success {
+  //    mail to: 'daihongjun@kedacom.com', subject: 'The Declarative Pipeline succeeded :)', body: 'Mail Test'
+  //  }
+  //}
 }
 // Script //
 node {

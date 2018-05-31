@@ -20,8 +20,8 @@ pipeline {
     }
   }
   post {
-    always {
-      mail to: daihongjun@kedacom.com, subject: 'The Declarative Pipeline finished :('
+    success {
+      mail to: daihongjun@kedacom.com, subject: 'The Declarative Pipeline succeeded :)'
     }
   }
 }

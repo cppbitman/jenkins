@@ -19,6 +19,11 @@ pipeline {
       }
     }
   }
+  post {
+    always {
+      mail to: daihongjun@kedacom.com, subject: 'The Declarative Pipeline finished :('
+    }
+  }
 }
 // Script //
 node {

@@ -22,7 +22,7 @@ pipeline {
   post {
     success {
       //mail to: 'daihongjun@kedacom.com', subject: 'The Declarative Pipeline succeeded :)', body: 'Mail Test'
-      echo 'The Declarative Pipeline succeeded !!!'
+      echo 'The Declarative Pipeline succeeded !'
     }
   }
 }
